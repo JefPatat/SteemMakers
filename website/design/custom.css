@@ -67,7 +67,7 @@ body
 
 .footer-sitemap
 {
-	border-left: 0px solid;
+	border-left: 0px solid #0776A1;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -89,8 +89,11 @@ body
 {
 	.footer-sitemap
 	{
-		border-left: 1px solid;
+		border-left: 1px solid #0776A1;
+		position:relative;
 	}
+	.footer-sitemap::before{content:""; display:block; position:absolute; top:0px; left:0px; right:0px; 
+bottom:0px; border-left:1px solid #25A0D0} 
 }
 
 /* Large devices (desktops, 992px and up) */

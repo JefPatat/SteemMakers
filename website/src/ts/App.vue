@@ -1,5 +1,5 @@
 <template>
-	<div class="application bg-secondary">
+	<div class="application d-flex flex-column bg-secondary">
 		<navbar></navbar>
 		
 		<div class="application-content">
