@@ -17,6 +17,7 @@
 					<b-dropdown-item to="/Faq">FAQ</b-dropdown-item>
 					<b-dropdown-item to="/Delegation">Delegate to us</b-dropdown-item>
 					<b-dropdown-item to="/Trail">Follow our trail</b-dropdown-item>
+					<b-dropdown-item to="/Branding">Branding</b-dropdown-item>
 					<b-dropdown-item to="/Notices">Notices</b-dropdown-item>
 				</b-nav-item-dropdown>
 				<b-nav-item to="/Contact">Contact</b-nav-item>

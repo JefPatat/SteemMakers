@@ -4,6 +4,7 @@ import About from '../components/About.vue'
 import Article from '../components/Article.vue'
 import Authentication from '../components/Authentication.vue'
 import Blog from '../components/Blog.vue'
+import Branding from '../components/Branding.vue'
 import Contact from '../components/Contact.vue'
 import Courtesy from '../components/Courtesy.vue'
 import Delegation from '../components/Delegation.vue'
@@ -50,6 +51,11 @@ export default new Router({
 			path: '/blog',
 			name: 'Blog',
 			component: Blog
+		},
+		{
+			path: '/branding',
+			name: 'Branding',
+			component: Branding
 		},
 		{
 			path: '/contact',
